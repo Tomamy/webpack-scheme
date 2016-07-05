@@ -1,0 +1,23 @@
+#addnote-container {
+	.form-group {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.form-group:last-child {
+		margin-bottom: 0;	
+	}
+	.control-label {
+		display: inline-block; 	
+		margin-right: 8px;
+	}
+	.form-control {
+		display: inline-block;
+		width: 300px;
+	}
+	.editor-toolbar.fullscreen {
+	}
+	.save {
+		padding-left: 30px;	
+		padding-right: 30px;	
+	}
+}

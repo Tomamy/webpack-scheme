@@ -1,0 +1,7 @@
+<%_.each(navis,function(val){%>
+	<%if(val.code != 'addnote'){%>
+		<li class="<%=val.code%> <%= curpos == val.code || (!curpos && val.code == 'index') ? 'active':'' %>"><a href="#<%=val.code%>"><%=val.name%></a></li>	
+	<%}else {%>
+		<li class="<%=val.code%> <%= curpos == val.code ? 'active': ''%>"><a href="#<%=val.code%>"  title="点击添加笔记"><i class="glyphicon glyphicon-plus"></i></a></li>	
+	<%}%>
+<%})%>

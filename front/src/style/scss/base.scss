@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	border-sizing: border-box;
+}
+
+ul {
+	li {
+		list-style: none;
+		transition: all 200ms ease-in;
+		box-shadow: 0 0 0 0 #fff;
+	}
+}
+img {
+	border: 0;
+}
+
+html,body {
+	height: 100%;
+}
+.navbar-inverse {
+	border-radius: 0;
+}
+.navbar-fixed-top {
+	z-index: 8;	
+}
+#add-note {
+	font-size: 1.3em;
+}
+#container {
+	min-height: 100%;
+	margin-bottom: -80px;
+}
+
+#content {
+	padding: 0 15px;
+	padding-top: 65px;
+	padding-bottom: 150px;
+}
+
+#footer {
+	height: 80px;
+	background-color: #222;
+	color: #fff;
+}

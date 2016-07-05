@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','Index\IndexController@getIndex');
+Route::controller('cates','Api\CatesController');
+Route::controller('notes','Api\NotesController');
+Route::controller('safe','Api\SafeController');
+Route::controller('upload','Api\UploadController');
